@@ -1,0 +1,56 @@
+{
+	"version": "1.0",
+	"session": {
+		"new": false,
+		"sessionId": "amzn1.echo-api.session.123",
+		"application": {
+			"applicationId": "amzn1.ask.skill.123"
+		},
+		"attributes": {
+			"joke.firstname": "jonathan",
+			"joke.joke": "Jonathan plus que toi pour partir, dans la pénombre de ta rue, Petite Marie, m'entends-tu ?",
+			"dialogstate": "WHO"
+		},
+		"user": {
+			"userId": "amzn1.ask.account.123"
+		}
+	},
+	"context": {
+		"AudioPlayer": {
+			"playerActivity": "IDLE"
+		},
+		"Display": {
+			"token": ""
+		},
+		"System": {
+			"application": {
+				"applicationId": "amzn1.ask.skill.123"
+			},
+			"user": {
+				"userId": "amzn1.ask.account.123"
+			},
+			"device": {
+				"deviceId": "amzn1.ask.device.123",
+				"supportedInterfaces": {
+					"AudioPlayer": {},
+					"Display": {
+						"templateVersion": "1.0",
+						"markupVersion": "1.0"
+					}
+				}
+			},
+			"apiEndpoint": "https://api.eu.amazonalexa.com",
+			"apiAccessToken": "token"
+		}
+	},
+	"request": {
+		"type": "IntentRequest",
+		"requestId": "amzn1.echo-api.request.123",
+		"timestamp": "2018-03-03T16:58:37Z",
+		"locale": "fr-FR",
+		"intent": {
+			"name": "AMAZON.StopIntent",
+			"confirmationStatus": "NONE"
+		}
+	}
+}
